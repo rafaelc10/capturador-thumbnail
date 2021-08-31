@@ -27,9 +27,12 @@
         if(isset($_SESSION['img'])){
             echo $_SESSION['img'];
             $_SESSION['img'] = null;
+        } else if(isset($_SESSION['erro'])){
+            echo $_SESSION['erro'];
+            $_SESSION['erro'] = null;
         }
-        
     ?>
+    
     </div>
 </body>
 </html>

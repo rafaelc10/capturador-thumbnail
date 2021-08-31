@@ -27,7 +27,6 @@ h1{
 .form form{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .form label {
@@ -54,7 +53,3 @@ h1{
     justify-content: center;
 }
 
-.results img{
-    width: 50%;
-    height: 50%;
-}
